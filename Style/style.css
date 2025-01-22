@@ -386,7 +386,7 @@ gap: 32;
 }
 .quota-content{
  
-    background-image:  url(/images/assets/quote-bg.png);
+    background-image:  url(./images/assets/quote-bg.png);
     background-repeat: no-repeat;
     margin: 24px 0px;
     width: 1232px;
