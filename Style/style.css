@@ -130,10 +130,15 @@ background-color: rgb(198, 228, 214);
     padding: 0px 100px 0px 100px;
     top: 0;
     margin: 80px 0px;
+    
 }
 .piller {
     width: 87.5%;
- 
+    display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+gap: 32;
 }
 .piller-h{
     color: rgb(14, 14, 14);
@@ -143,7 +148,6 @@ background-color: rgb(198, 228, 214);
     line-height: 8px;
     text-align: left;
     margin: 32px 0px;
-    gap: 32;
     width: 1280px;
     height: 48px;
 }
@@ -164,6 +168,30 @@ background-color: rgb(198, 228, 214);
     width: 220px;
     height: 300px;
     
+}
+.light{
+ width: 49.66px;
+height: 53.09px;
+left: 13.34px;
+top: 1px;
+}
+.planet{
+width: 49.66px;
+height: 53.09px;
+left: 13.34px;
+top: 1px;
+}
+.infrastructure{
+    width: 49.66px;
+    height: 53.09px;
+    left: 13.34px;
+    top: 1px;   
+}
+.empowerment{
+    width: 49.66px;
+    height: 53.09px;
+    left: 13.34px;
+    top: 1px; 
 }
 .piller-cardss{
     box-sizing: border-box;
@@ -234,6 +262,26 @@ gap: 32;
     border-radius: 16px;
     background: rgba(84, 144, 245, 0.2);
     padding: 32px;
+ }
+.digital-transformation{
+    width: 49.66px;
+    height: 53.09px;
+    left: 13.34px;
+    top: 1px; 
+ }
+ .green-energy{
+   
+    width: 49.66px;
+    height: 53.09px;
+    left: 13.34px;
+    top: 1px;  
+ }
+ .modern-infrustructure{
+
+    width: 49.66px;
+    height: 53.09px;
+    left: 13.34px;
+    top: 1px;  
  }
  .vision-card-2{
     border-radius: 16px;
@@ -333,7 +381,7 @@ gap: 32;
     gap: 24;
     padding: 48px 24px 48px 24px;
     background: rgb(255, 255, 255);
-    margin: 24px 0px;    
+    margin: 0px 0px;    
     box-shadow: 0px 6px 50px 0px rgba(141, 162, 169, 0.15); 
 }
 .quota-content{
@@ -343,7 +391,7 @@ gap: 32;
     margin: 24px 0px;
     width: 1232px;
     height: 160px;
-    padding: 0px;
+    padding: 12px 2px;
 
 }
 .quota-content p{
@@ -375,10 +423,10 @@ gap: 32;
     text-align: left;
 }
 .opinion{
-    padding: 30px 100px 30px 100px;
+    padding: 0px 100px 0px 100px;
     top: 0;
     margin: 80px 0px;
-    gap: 80px;
+   
 }
 
 .opinion-head h1{
@@ -477,20 +525,22 @@ gap: 32;
     align-items: center;
     padding: 10px 14px 10px 14px;
 }
-.whole-card{
-    width: 1280px;
-    height: 1406px;
-    margin: 32px 0px;
+.yes:hover {
+    background: rgb(234, 239, 237);
+    color: #161817;
 }
-.News-Card-head{
+.News-Card{
     width: 1280px;
-    height: 1406px; 
-    padding: 30px 100px 30px 100px;
-
+    height: 1254px; 
+    padding: 48px;
+    gap: 80;
+    margin: 0px 32px;
+    overflow: hidden;
 }
 .whole-card{
     width: 1280px;
     height: 1254px;
+    margin: 32px 0px;
 }
 .news-card-head{
     gap: 24;
@@ -517,19 +567,19 @@ gap: 32;
 }
 .news-card-content{
     width: 1280px;
-    height: 402px;
+    height: 1254px;
     gap: 24;
     border-radius: 16px;
     background: rgb(255, 255, 255); 
+    margin: 32px 0x;
 }
 .news-card-1{
     display: flex;
     align-items: center;    
     border-radius: 24px;
     background: rgb(255, 255, 255);
-    gap: 32;
-    padding: 16px;
-    
+    gap: 12;
+    padding: 48px;   
     background: rgb(255, 255, 255);
     width: 1280px;
     height: 402px;
@@ -538,11 +588,21 @@ gap: 32;
 .img-news{
     width: 408px;
     height: 326px;
-    margin: 0px 32px;
+    margin: 32px 0px;
     border-radius: 16px;
     object-fit: cover;
     padding: 32px;
    
+}
+.sat{
+    width: 408px;
+    height: 306px;
+    border-radius: 24px;
+}
+.yunus{
+    width: 408px;
+    height: 306px;
+    border-radius: 24px;
 }
 .news-content{
     margin: 0;
@@ -552,7 +612,7 @@ gap: 32;
 .news-content h1{
     color: rgba(14, 14, 14, 0.8);
     font-family: Fira Sans;
-    font-size: 32px;
+    font-size: 28px;
     font-weight: 700;
     line-height: 38px;
     letter-spacing: 0%;
@@ -624,10 +684,244 @@ height: 48px;
     border-radius: 24px;
     background: rgb(255, 255, 255);
     gap: 32;
-    padding: 16px;
+    padding: 48px;
     margin: 52px 0px;
     background: rgb(255, 255, 255);
     width: 1280px;
     height: 402px;
     box-shadow: 0px 6px 50px 0px rgba(141, 162, 169, 0.15);
 }
+
+.donate-sec{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 60px 100px;
+ 
+    overflow: hidden;
+}
+.full-donate{
+    width: 1320px;
+    height: 494px;
+    background: rgb(247, 247, 247);
+  
+}
+.donate-head{
+    gap: 24;
+    padding: 0px;
+}
+.donate-head h1{
+    color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: center;
+gap: 24;
+}
+.donate-head p{
+color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: center;
+margin: 32px 152px 32px 102px;
+}
+.donate-card{
+width: 1071px;
+height: 128px;
+display: flex;
+flex-direction: row;
+gap: 24;
+justify-content: flex-start;
+align-items: center;
+margin: 32px 152px 32px 102px;
+}
+.d-card{
+width: 240px;
+height: 139px;
+gap: 24;
+align-items: center;
+box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.15);
+border-radius: 16px;
+padding: 40px;
+margin: 0px 24px;
+background: rgb(255, 255, 255);
+}
+.d-card h6{
+    color: rgba(14, 14, 14, 0.8);
+font-family: Fira Sans;
+font-size: 20px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: center;
+margin: 12px 0px;
+}
+.d-card-2{
+    width: 240px;
+    height: 139px;
+    gap: 24;
+    align-items: center;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    padding: 40px;
+    margin: 0px 24px;
+    background: rgb(91, 166, 131);
+    }
+    .d-card-2 h6{
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: 12px 0px;
+    }
+.d-card:hover
+{
+    background: rgb(198, 228, 214);
+    color: #161817;
+}
+.d-card-2:hover
+{
+    background: rgb(198, 228, 214);
+    color: #161817;
+}
+
+.input-field{
+    box-sizing: border-box;
+border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+background: rgb(255, 255, 255);
+gap: 24;
+padding: 20px 40px 20px 40px;
+margin: 32px 122px;
+width: 1032px;
+height: 64px;
+align-items: center;
+text-align: center;
+}
+.text-in{
+    color: rgba(14, 14, 14, 0.3);
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    border: none;
+}
+
+.donate-btn{
+    margin: 0px 555px;
+    
+    padding: 10px 20px; 
+    font-size: 18px;
+    background-color: #fff;
+    box-sizing: border-box;
+    border-radius: 8px;   
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0%;
+    border: 1px solid rgb(0, 106, 80);
+    cursor: pointer;
+    transition: all 0.3s;
+    background: rgb(0, 106, 80);
+    
+    text-align: center;
+}
+.donate-btn:hover {
+    background: rgb(198, 228, 214);
+    color: #161817;
+}
+
+.newsletter {
+    padding: 60px 100px;
+  }
+ 
+  .newsletter-card-container {
+    display: flex;
+    flex-direction: column;
+    background-color:rgb(198, 228, 214);
+  }
+ 
+  .news-letter-head h1{
+    display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   align-items: center;
+   gap: 16;
+   padding: 0px;
+  }
+  .news-letter-head p{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+  }
+  .newsletter-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 0px 0px;
+    border-radius: 24px;
+    gap: 24;
+    padding: 80px 90px 80px 90px;
+  }
+  .newsletter-card form {
+    display: flex;
+    justify-content: center;
+  }
+  .newsletter-card input {
+    border-radius: 8px 0px 0px 8px;
+    background: rgb(255, 255, 255);
+    gap: 24;
+    padding: 18px 40px 18px 40px;
+    width: 60%;
+    border: none;
+   
+    color: rgba(14, 14, 14, 0.3);
+   font-family: Fira Sans;
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 19px;
+   letter-spacing: 0%;
+   text-align: left;
+   
+   
+  }
+.newsletter-card button {
+    border-radius: 0px 8px 8px 0px;
+    background: rgb(0, 106, 80);
+    border: none;
+    width: 150px;
+    height: 56px;
+
+    color: rgb(255, 255, 255);
+   font-family: Fira Sans;
+   font-size: 18px;
+   font-weight: 600;
+   line-height: 22px;
+   letter-spacing: 0%;
+   text-align: center;
+  }
+.newsletter-card-container p{
+ color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: center;
+  }
