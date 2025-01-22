@@ -386,13 +386,13 @@ gap: 32;
 }
 .quota-content{
  
-    background-image:  url(./images/assets/quote-bg.png);
+   
+    background-image: url('/images/assets/quote-bg.png');
     background-repeat: no-repeat;
     margin: 24px 0px;
     width: 1232px;
     height: 160px;
-    padding: 12px 2px;
-
+    padding: 12px 2px;  
 }
 .quota-content p{
     color: rgba(14, 14, 14, 0.8);
